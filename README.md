@@ -1,7 +1,8 @@
 # BibliotecaABC
 
 Projeto de back-end desenvolvido com Spring Boot para simular uma API RESTful de uma biblioteca.
-Este sistema **não possui banco de dados** e **não implementa relacionamentos entre entidades**. Os dados são armazenados em memória usando listas internas.
+Este sistema **não possui banco de dados**.
+Os dados são armazenados em memória usando listas internas.
 
 ## 🛠 Tecnologias
 - Java 17+
