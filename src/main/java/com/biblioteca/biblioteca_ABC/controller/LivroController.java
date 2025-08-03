@@ -68,13 +68,13 @@ public class LivroController {
 
     //Remove um livro pelo ID
     @DeleteMapping("/delete/{id}")
-    public ResponseEntity<Void> delete (@PathVariable int id){
-        try{
+    public ResponseEntity<Void> delete(@PathVariable int id) {
+        try {
             livroService.delete(id);
-            return ResponseEntity.noContent().build(); //204
-        }
-        catch (Exception ignored){
-            return ResponseEntity.badRequest().build(); //400
+            return ResponseEntity.noContent().build(); // 204
+        } catch (Exception ignored) {
+            return ResponseEntity.badRequest().build(); // 400
         }
     }
+
 }
